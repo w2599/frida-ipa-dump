@@ -1,0 +1,32 @@
+﻿
+下载最新版{python}:		https://www.python.org/downloads/
+下载对应的frida-py版本.egg	放到PythonXX\Lib\site-packages		https://pypi.org/project/frida/#files	
+运行python easy_install.py xxx.egg
+
+
+
+把pip目录放到 %APPDATA%		(换阿里云镜像)
+
+
+
+依次运行下列命令
+
+python -m pip install --upgrade pip
+
+pip install numpy matplotlib
+
+pip install frida-tools -i https://pypi.org/simple
+
+pip install frida							(可选?????)
+
+
+
+
+运行frida-ps试试看可不可以咯?
+
+
+pip install --upgrade numpy matplotlib
+
+pip install --upgrade frida-tools
+
+pip install --upgrade frida
